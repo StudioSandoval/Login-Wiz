@@ -38,9 +38,9 @@
                      <br>
 
                      
-                      <v-btn block ><img src="../assets/google.png" alt="" contain height="30">sing in with google</v-btn>
+                      <v-btn block ><img class="boton" src="../assets/google.png" alt="" contain height="30">sing in with google</v-btn>
                         <br>
-                        <v-btn  block ><img src="../assets/apple.png" alt="" contain height="30">apple id</v-btn>
+                        <v-btn  block ><img class="boton" src="../assets/apple.png" alt="" contain height="30">apple id</v-btn>
                         <br>
                     </v-flex>
                     </v-card-text> 
@@ -77,16 +77,20 @@ export default {
 
 
 <style scoped>
-a{
-    margin:0px 0px 0px 140px;
-
-}
-h3{
-  margin:0px 0px 0px 205px;
+.boton{
+  margin: 0px 15px 0px 0px;
 }
 .container{
-    margin:  20px auto;
+    margin:  100px auto;
+    width: 1300px;
 }
+a{
+    margin:0px 0px 0px 170px;
+}
+h3{
+  margin:0px 0px 0px 230px;
+}
+
 .v-card-text{
   border: 2px solid rgb(82, 0, 14);
 }

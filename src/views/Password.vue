@@ -65,7 +65,7 @@
 <style scoped>
 
 .container{
-    margin: 80px auto;
+    margin: 100px auto;
 }
 
 </style>
