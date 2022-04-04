@@ -8,14 +8,14 @@
          <v-windows-item :value="1" >
        <v-row>
                <v-col cols="6" md="7" >
-                       <!-- <v-img :src="require('../assets/PDA.jpg')" class="my-7" contain height="500" /> -->
+                       <v-img class="LE" :src="require('../assets/isologosecundarioRGBWIZ-02.png')" />
                     </v-col>
                     
          <v-col cols="5" md="16" >
           <v-card-text > 
                <v-flex >
 
-             <v-img :src="require('../assets/logo_v1.png')" class="my-5"  contain height="200" />
+             <!-- <v-img :src="require('../assets/logo_v1.png')" class="my-5"  contain height="200" /> -->
 
                        <v-form>
                         <v-text-field label="Users" name="Users" type="text" />
@@ -77,9 +77,10 @@ export default {
 
 
 <style scoped>
+
 .boton{
   margin: 0px 15px 0px 0px;
-}
+} 
 .container{
     margin:  100px auto;
     width: 1300px;
