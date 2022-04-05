@@ -8,7 +8,7 @@
          <v-windows-item :value="1" >
        <v-row>
                <v-col cols="6" md="7" >
-                       <v-img class="LE" :src="require('../assets/isologosecundarioRGBWIZ-02.png')" />
+                       <!-- <v-img class="LE" :src="require('../assets/isologosecundarioRGBWIZ-02.png')" /> -->
                     </v-col>
                     
          <v-col cols="5" md="16" >
