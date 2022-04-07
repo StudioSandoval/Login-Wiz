@@ -8,14 +8,14 @@
          <v-windows-item :value="1" >
        <v-row>
                <v-col cols="6" md="7" >
-                       <!-- <v-img :src="require('../assets/PDA.jpg')" class="my-7" contain height="500" /> -->
+                       <!-- <v-img class="LE" :src="require('../assets/isologosecundarioRGBWIZ-02.png')" /> -->
                     </v-col>
                     
          <v-col cols="5" md="16" >
           <v-card-text > 
                <v-flex >
 
-             <v-img :src="require('../assets/logo_v1.png')" class="my-5"  contain height="200" />
+             <!-- <v-img :src="require('../assets/logo_v1.png')" class="my-5"  contain height="200" /> -->
 
                        <v-form>
                         <v-text-field label="Users" name="Users" type="text" />
@@ -38,9 +38,9 @@
                      <br>
 
                      
-                      <v-btn block ><img src="../assets/google.png" alt="" contain height="30">sing in with google</v-btn>
+                      <v-btn block ><img class="boton" src="../assets/google.png" alt="" contain height="30">sing in with google</v-btn>
                         <br>
-                        <v-btn  block ><img src="../assets/apple.png" alt="" contain height="30">apple id</v-btn>
+                        <v-btn  block ><img class="boton" src="../assets/apple.png" alt="" contain height="30">apple id</v-btn>
                         <br>
                     </v-flex>
                     </v-card-text> 
@@ -77,16 +77,21 @@ export default {
 
 
 <style scoped>
-a{
-    margin:0px 0px 0px 140px;
 
+.boton{
+  margin: 0px 15px 0px 0px;
+} 
+.container{
+    margin:  100px auto;
+    width: 1300px;
+}
+a{
+    margin:0px 0px 0px 170px;
 }
 h3{
-  margin:0px 0px 0px 205px;
+  margin:0px 0px 0px 230px;
 }
-.container{
-    margin:  20px auto;
-}
+
 .v-card-text{
   border: 2px solid rgb(82, 0, 14);
 }
