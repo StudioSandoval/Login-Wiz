@@ -15,11 +15,8 @@
           <v-card-text > 
                <v-flex >
 
-<<<<<<< HEAD
              <!-- <v-img :src="require('../assets/logo_v1.png')" class="my-5"  contain height="200" /> -->
-=======
              <v-img :src="require('../assets/logo_v1.png')" class="my-5"  contain height="150" />
->>>>>>> a96da2c6fb338383f802fd8445c3afc6b645ae87
 
                        <v-form>
                         <v-text-field label="User" name="Users" type="text" color="#041C2C"/>
@@ -42,16 +39,13 @@
                      <br>
 
                      
-<<<<<<< HEAD
-                      <v-btn block ><img class="boton" src="../assets/google.png" alt="" contain height="30">sing in with google</v-btn>
-                        <br>
-                        <v-btn  block ><img class="boton" src="../assets/apple.png" alt="" contain height="30">apple id</v-btn>
-=======
+                      <!-- <v-btn block ><img class="boton" src="../assets/google.png" alt="" contain height="30">sing in with google</v-btn> -->
+                        <!-- <br> -->
+                        <!-- <v-btn  block ><img class="boton" src="../assets/apple.png" alt="" contain height="30">apple id</v-btn> -->
                       <v-btn block :elevation="6"  height="50"><img src="../assets/google.png" alt="" contain height="30"> sing in with google</v-btn>
                         <br>
                         <v-btn  block :elevation="6"  height="50"><img src="../assets/apple.png" alt="" contain height="30"> sing in with apple</v-btn>
->>>>>>> a96da2c6fb338383f802fd8445c3afc6b645ae87
-                        <br>
+                        <!-- <br> -->
                     </v-flex>
                     </v-card-text> 
                     </v-col>
@@ -100,6 +94,7 @@ a{
 }
 h3{
   margin:0px 0px 0px 230px;
+}
 .second{
   margin:0px 0px 0px 205px;
   color: #041C2C;
